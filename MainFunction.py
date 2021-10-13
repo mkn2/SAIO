@@ -3,19 +3,34 @@ print("Hello")
 name = input("your name ")
 age = input("your age " )
 hobby = input("your hobby ")
-
 print("Hello " + name + ", you are " + age + " and you like " + hobby)
 
 
-    
-Male = input("Are you a male? True/False: ")
-if Male == "True":
-    print("You are a male")
-else:
-    print("You are not a Male")
+userInput = ""#
+male = 9
+userInput = input("Are you a male? 1=True/2=False: ")
+while userInput != "3":
+   userInput = input("Are you a male? 1=True/2=False: ")
+   if userInput == "2":
+    print("Are you a male? True/False: ")
+   elif userInput == "1": 
+     print("You are a male")
+     break
 
-Tall = input("Are you a True? True/False: ")
-if Tall == "True":
-    print("You are a Tall")
-else:
-    print("You are not a Tall")
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
