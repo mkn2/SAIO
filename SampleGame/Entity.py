@@ -5,7 +5,7 @@ from Config import EventType
 #	- items
 #	- NPCs
 #
-# We want to use inerhitance because each of the above may cause a
+# We want to use inheritance because each of the above may cause a
 # quest to progress when interacted with by the player (associated with
 # a quest). Another thing they have in common is a name (self.name)
 class Entity(object):
